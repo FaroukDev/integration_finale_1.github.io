@@ -1,0 +1,388 @@
+body{
+    color:#6b6865;
+}
+
+.navbar-nav li {
+    padding-right: 35px;
+}
+
+.nav-link:hover{
+    background-color: grey;
+    
+    
+}
+
+.collapse ul li a:hover{
+    color:black;
+}
+
+
+
+#carousel-example-generic{
+    margin-top: 40px;
+}
+
+.carousel-item  img{
+    width:100%;
+  
+}
+
+
+.carousel-fullscreen .carousel-inner .item {
+    height: 100vh; 
+    min-height: 600px; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* carousel fullscreen - vertically centered caption*/
+
+.carousel-fullscreen .carousel-caption {
+    top: 50%;  
+    bottom: auto;
+    -webkit-transform: translate(0, -50%); 
+    -ms-transform: translate(0, -50%); 
+    transform: translate(0, -50%);
+}
+
+.pills h2{
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.pills span{
+    font-size: 15px;
+}
+
+.nav-pills{
+  display: flex;
+  justify-content:center;
+  margin-bottom: 30px;
+  
+}
+
+.nav-pills li:hover{
+    background-color:#6b6865 ;
+    border-radius: 5px;
+    color: white;
+    width:140px;
+    text-align: center;
+    
+}
+
+.nav-pills li{
+    text-decoration: none;
+    color:white;
+    width:140px;
+    text-align: center;
+}
+
+.nav-pills li a{
+    text-decoration:none;
+    color: #6b6865;
+}
+
+.nav-pills li a:hover{
+    color: lightgrey;
+    
+}
+
+.perso1{
+    display:flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin: 0 auto;
+
+}
+
+#gandalf img, #hobbit img, #yummy img{
+    width: 100%;
+    height:330px;
+}
+#img1, #img2, #img3{
+    width:287px;
+    height:300px;
+    margin-bottom:50px;
+}
+
+#img1 img, #img2 img, #img3 img{
+    opacity: 0.5;
+    
+    
+}
+
+#text1 h4, #text4 h4{
+    text-align: center;
+    font-size: 18px; 
+}
+
+#text1, #text4{
+   
+    opacity: 0.8;
+    position: relative;
+    bottom: 320px;
+    left: 25px;
+    height: 80px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px; 
+}
+
+.text4_bis h4{
+    line-height: 70px;
+}
+
+#text1 h4 span{
+    color: orange;
+}
+
+#text2 span, #hob span, #text5 span{
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+#text3 span, #text6 span{
+    text-align:center;
+    font-size:20px;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left:105px;
+    font-weight:bold;   
+}
+
+#bloc_img, #bloc_img1, #bloc_img2{
+    position:relative;
+}
+.text3_bis, .text6_bis, .hob{
+    display:none;
+}
+#img1:hover .text3_bis{
+    display:block; 
+}
+
+#img3:hover .text6_bis{
+    display:block; 
+}
+
+#img2:hover .text2_bis{
+    display:block; 
+}
+
+#img1 img:hover{
+    opacity:1;
+}
+
+#img2 img:hover{
+    opacity:1;
+}
+#img3 img:hover{
+    opacity:1;
+}
+.text1_bis{
+    display: block;   
+}
+#img1:hover .text1_bis{
+    display:none;
+}
+.text2_bis, .text5_bis{
+    display: block;
+}
+#img1:hover .text2_bis{
+    display:none;
+}
+
+#img3:hover .text5_bis{
+    display:none;
+}
+#img3:hover .text4_bis{
+    display:none;
+}
+
+#img2:hover .text2_bis{
+    display:none;
+}
+
+
+hr{
+    border: 2px solid #6b6865;
+}
+
+.captured{
+    display:flex;
+    margin-right:30px;
+}
+
+.captured h2{
+    font-size: 22px;
+}
+
+.text button{
+    margin-left: 340px;
+    background-color: white;
+    color: black;
+    border:1px solid black;
+	padding:6px 5px 6px 5px;
+	border-radius:4px;
+	background: white;
+	font:bold 14px;
+    
+}
+
+.hunter, .hunter1, .hunter2{
+    display:flex;
+    flex-flow: wrap;
+    margin-right: 150px;
+    text-decoration: none;
+   
+    
+}
+
+.hunter1 img, .hunter2 img{
+    width:90px;
+    height:90px;
+    border-radius: 5px;
+    
+}
+.hunter1 p, .hunter2 p, .description p, .description span{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.description span a{
+    text-decoration: none; 
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.description p{
+    font-weight: bold;
+    color: black;
+}
+
+.description p button{
+    background-color: #6b6865;
+    color:white;
+    border-radius:5px;
+}
+
+
+.hunter h2{
+    font-size:22px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+table, tr, th, td{
+    border: 1px solid #6b6865;
+    
+}
+
+th{
+    background-color:#6b6865 ;
+    color: white;
+}
+ tr{
+     text-align: center;
+ }
+
+.ring h6{
+    color:black;
+    font-weight: bold;
+    margin-top:20px; 
+}
+
+.card{
+    padding: 0px 2px 4px 2px;
+    margin-bottom: 20px;
+}
+
+.card-header{
+    color:black;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+
+.join{
+    display: flex;
+    justify-content: space-around;
+}
+.precious img{
+    margin-left: 100px;
+}
+
+.mordor{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.mordor img{
+    border-radius:3px; 
+}
+
+.mordor_text{
+    margin-left: 20px;
+    max-width:800px;
+}
+
+.mordor_text button{
+    margin-left: 200px;
+    background-color: white;
+    color: black;
+    border:1px solid black;
+	padding:6px 5px 6px 5px;
+	border-radius:4px;
+	background: white;
+	font:bold 14px;
+}
+
+.form-group{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.page-footer{
+    background-color: #4f4c4c;
+    margin-top: 40px;
+}
+
+.page-footer ul li a, .col-md-6 a, .col-md-6 p{
+    text-decoration: none;
+    color: white;
+    
+}
+
+@media (max-width: 600px) {
+    .captured {
+      display:flex;
+      flex-flow: wrap ;
+    }
+
+    .text button{
+        margin-left: 120px;
+    }
+
+    .mordor{
+        display:flex;
+        flex-flow: column;
+    }
+
+    .button_mordor button{
+        margin-left: 0;
+    }
+
+    #carousel-example-generic{
+        margin-top: 50px;
+    }
+  }
+
